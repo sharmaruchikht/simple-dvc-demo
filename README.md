@@ -31,5 +31,7 @@ onliner updates for readme
 git add . && git commit -m "update Readme.md" 
 
 git remote add origin https://github.com/sharmaruchikht/simple-dvc-demo.git
+
 git branch -M main
+
 git push origin main
