@@ -17,21 +17,27 @@ python -m pip install -r requirements.txt
 
 Download the data "winequality.csv"
 
+```bash
 git init
-
+```
+```bash
 dvc init
-
+```
+```bash
 dvc add data_given/winequality.csv
-
+```
+```bash
 git add .
-
+```
+```bash
 git commit -m "first commit"
-
+```
 onliner updates for readme
+```bash
 git add . && git commit -m "update Readme.md" 
-
+```
+```bash
 git remote add origin https://github.com/sharmaruchikht/simple-dvc-demo.git
-
 git branch -M main
-
 git push origin main
+```
