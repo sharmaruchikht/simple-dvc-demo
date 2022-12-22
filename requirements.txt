@@ -2,6 +2,7 @@
 -e .
 
 # third party packages
+importlib-metadata==4.13.0
 dvc
 dvc[gdrive]
 sklearn
